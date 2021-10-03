@@ -74,7 +74,7 @@ To use python and vs code congruently to pull the winning candidate in Colorado,
 
     Then I had to append to my list which meant adding any candidate name that was not in my canididate options would be added. This is also while simultaneously reviewing the number of votes for each candidate which required be to set the vote at 0 to add on to going row by row. This would essentially go row by row adding votes under each candidate in my list to obtain counts.
 
-    ![Resources/09_Candidate_Percentage_Calculation.png](09_Candidate_Percentage_Calculation.png) 
+    ![Resources/09_Candidate_Percentage_Calculation.png](Resources/09_Candidate_Percentage_Calculation.png) 
 
     Since I had already set up total votes, and I had added up votes for each in the previous section, I needed to run a for loop to identify the votes each candidate received, divide that by total votes which was also in float to limit the percentage, and multiply that by 100.
 
@@ -99,15 +99,20 @@ To use python and vs code congruently to pull the winning candidate in Colorado,
 
     I had to create the report to be exported with the winning information and also write that to the text file. This information would pull information from the winner if statement and then print that out and write it on the text file.
 
-### Election-Audit Summary
-![Resources/21_Results.png](Resources/21_Results.png) 
+## Election-Audit Summary and Challenges
+- **Results** 
 
-    Using different python techniques, some similar to VBA like for loops and conditional statements and some new like dictionaries and list creation, I was able to export a report to my text file on the election. I had to add a csv reader, define headers, and pull data to create the report which had f string that referenced code I had created. All of these tools allowed me to output the election results. It starts with county votes in each county, the county with the highest turnout, the candidates and each of the percentages, vote casted for them. The last postion was the winner's section which highlighted the winning candidate, vote count, and percentage in a nice little summary.
-    I also had to use /n for making it clearer and write on the next line, as well as dashes to nicely section off each section.
+    ![Resources/21_Results.png](Resources/21_Results.png) 
+
+    Using different python techniques, some similar to VBA like for loops and conditional statements and some new like dictionaries and list creation, I was able to export a report to my text file on the election. I had to add a csv reader, define headers, and pull data to create the report which had f string that referenced code I had created. I also had to use /n for making it clearer and write on the next line, as well as dashes to nicely section off each section.
+
+    All of these tools allowed me to output the election results. My report starts with county votes in each county, the county with the highest turnout, the candidates and each of the percentages, vote casted for them. The last postion was the winner's section which highlighted the winning candidate, vote count, and percentage in a nice little summary. All of this with sections and paragraph type spacing to allow for readability.
+- **Future Use**
 
     This code could work for future elections. The important task would be ensuring the right file is chosen for the "file_to_load" and creating a new text file for the "file_to_save". All the other variables should work so long those two items are correct and that the file to load has simlar headers in the same order. If they were didn't the row related code would need to be updated to match the column
 
-### Challenges and Difficulties Encountered
+- **Challenges** 
+
     There were several challenges I experienced.
     The first was that the challenge py code had added ".." which meant to go back previous folders and was not allowing my code to run since it was trying to read a file that wasn't there. It took me a while to figure it out but once I did, I began working on the code.
     indenting is incredily important and that is something I had to learn. I had several times where I had up to 8 "problems" in running my code due to indentation. Sometimes in fixing one, I would break another so I needed to go line by line and make sure I wasn't missing anything.
