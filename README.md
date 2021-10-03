@@ -49,6 +49,7 @@ To use python and vs code congruently to pull the winning candidate in Colorado,
     The results show Jefferson county had 10.5% of votes with 38,855, which Denver having 82.8% of the vote with 306,055, and Arapahoe with 6.7% with 24,801 votes.
 
 - **Which county had the largest number of votes?**
+
     ![Resources/14_Initialize_County_Turnout.png](Resources/14_Initialize_County_Turnout.png) 
 
     This required information from counties in previous section to work. Here I had to set the turnout for each county along with the vote quantity which I set to zero so it could be added.
@@ -62,6 +63,7 @@ To use python and vs code congruently to pull the winning candidate in Colorado,
     I created a report based on data. I added the largest county turnout that pulled from the section above. I set up code to print out and write over the text file. This determined that Denver had the highest vote turnout. 
 
 - **Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.**
+
     ![Resources/06_candidate_options.png](Resources/06_candidate_options.png) 
 
     Because the percentages were based on candidates, I also had to set up my list as candidate options and my dictionary which holds the votes for each.
