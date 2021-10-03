@@ -1,7 +1,7 @@
 # Election-Analysis
 
 ## Overview of Project
-To look at results for each candidate in Colorado and determine the votes, winners, and county votes.
+To look at results for each candidate in Colorado and determine the votes, winners, and county votes. The results are on the csv file and will be outputed to text.
 ### Purpose
 To use python and vs code congruently to pull the winning candidate in Colorado, and determine which county had the most votes.
 ## Analysis and Challenges
@@ -111,7 +111,7 @@ To use python and vs code congruently to pull the winning candidate in Colorado,
     All of these tools allowed me to output the election results. My report starts with county votes in each county, the county with the highest turnout, the candidates and each of the percentages, vote casted for them. The last postion was the winner's section which highlighted the winning candidate, vote count, and percentage in a nice little summary. All of this with sections and paragraph type spacing to allow for readability.
 - **Future Use**
 
-    This code could work for future elections. The important task would be ensuring the right file is chosen for the "file_to_load" and creating a new text file for the "file_to_save". All the other variables should work so long those two items are correct and that the file to load has simlar headers in the same order. If they were didn't the row related code would need to be updated to match the column
+    This code could work for future elections. The important task would be ensuring the right file is chosen for the "file_to_load" and creating a new text file for the "file_to_save". All the other variables should work so long those two items are correct and that the file to load has simlar headers in the same order. If they didn't, the row related code would need to be updated to match the column
 
 - **Challenges** 
 
